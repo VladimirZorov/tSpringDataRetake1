@@ -18,6 +18,7 @@ import java.time.format.DateTimeFormatter;
 public class ApplicationBeanConfiguration {
 
 
+
     @Bean
     public Gson gson() {
         return new GsonBuilder()
